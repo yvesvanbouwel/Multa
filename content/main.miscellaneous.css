@@ -9,3 +9,7 @@
 .upper {
     text-transform: uppercase;
 }
+
+.space-before{
+	padding-top: 1em;
+}
