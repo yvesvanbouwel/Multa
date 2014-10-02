@@ -1,0 +1,15 @@
+﻿/* ----------------
+   --   Button   --
+   ----------------
+ */
+
+.field-label{
+    display: inline-block;
+    width: 100px;
+}
+
+.btn-cta {
+    background-color: #DF5A49;
+    color: #FFF;
+    font-weight: bold;
+}

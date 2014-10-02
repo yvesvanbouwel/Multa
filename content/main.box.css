@@ -1,0 +1,38 @@
+﻿/* -------------
+   --   Box   --
+   -------------
+*/
+.box-container {
+    background-color: #F8F8F8;
+    padding-left: 0;
+}
+
+.box {
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #eeeeee;
+}
+
+.box-right {
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.box-heading {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #DF5A49
+}
+
+.box-subheading {
+    color: #7BBC28;
+}
+
+.box-body {
+    margin-top: 4em;
+}
+
+.box-a {
+    background-color: #fff;
+    color: #334D5C;
+}

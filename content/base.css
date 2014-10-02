@@ -1,0 +1,31 @@
+﻿h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    /*font-family: 'Corben', Georgia, Times, serif;*/
+    font-family: 'Open Sans Condensed', arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Open Sans', arial, sans-serif;
+    background-color: #F8F8F8;
+}
+
+hr {
+    margin: 15px auto;
+}
+
+a {
+    color: #45B29D;
+    text-decoration: underline;
+}

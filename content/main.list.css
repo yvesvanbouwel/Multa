@@ -1,0 +1,57 @@
+﻿/* ----------------
+   --   Lists   --
+   ----------------
+ */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-text li {
+    height: 1.4em;
+}
+
+.list-item + .list-item {
+    margin-bottom: 20px;
+}
+
+.list-item-style {
+    float: left;
+    height: 5.5em;
+    width: 10px;
+    background-color: #7BBC28;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+    .list-item-style + .list-item-style {
+    }
+
+
+
+/* ----------------
+   --   Lists groups   --
+   ----------------
+ */
+.list-group {
+    color: #334D5C;
+    text-decoration: none;
+}
+
+.list-group-item + .list-group-item {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.list-group-item.last {
+    border-bottom: 1px solid #dddddd;
+}
+
+a.list-group-item {
+    color: #334D5C;
+}
+
+    a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+        background-color:#7BBC28;
+        border-color: #7BBC28;
+    }

@@ -1,0 +1,25 @@
+﻿/* --------------------
+   --   Navigation   --
+   --------------------
+ */
+.nav > li > a {
+    /*color: #5D6B74;*/
+    color: #334D5C;
+    text-decoration: none;
+}
+
+    .nav > li > a:hover,
+    .nav > li > a:focus {
+        background-color: transparent;
+        border-bottom: 5px solid #eee;
+    }
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #DF5A49;
+    /*color: #FF8C31;*/
+    background-color: transparent;
+    /*border-bottom: 5px solid #FF8C31;*/
+    border-bottom: 5px solid #DF5A49;
+}

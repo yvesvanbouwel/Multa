@@ -1,0 +1,58 @@
+﻿/* ----------------
+   --   Header   --
+   ----------------
+ */
+.page-header {
+    border-bottom-width: 0;
+    margin-bottom: 0;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.page-header-logo{
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+.logo {
+    /*color: #5D6B74;*/
+    color: #334D5C;
+    display:inline;
+}
+
+
+
+
+
+/* --------------------
+   --   Footer   --
+   --------------------
+ */
+.footer {
+    height: 60px;
+    background-color: #eeeeee;
+}
+
+
+
+/* --------------
+   --   Body   --
+   --------------
+ */
+.wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+.page-title {
+    color: #DF5A49
+}
+
+.page-title-height {
+    margin-top: 20px;
+}
