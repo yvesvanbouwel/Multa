@@ -2,14 +2,34 @@
    --   Miscellaneous   --
    -----------------------
  */
-.center {
-    text-align: center;
+
+/* positioning */
+.left{
+	float: left;
 }
 
-.upper {
-    text-transform: uppercase;
+.right{
+	float: right;
 }
 
 .space-before{
 	padding-top: 1em;
+}
+
+
+
+/* Sizes */
+.half-width{
+ 	width: 50%;
+}
+
+
+
+/* Font */
+.upper {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
 }

@@ -8,18 +8,45 @@
     text-decoration: none;
 }
 
-    .nav > li > a:hover,
-    .nav > li > a:focus {
+/* Header */
+.page-header .nav > li > a:hover,
+.page-header .nav > li > a:focus {
         background-color: transparent;
         border-bottom: 5px solid #eee;
     }
 
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.page-header .nav-pills > li.active > a,
+.page-header .nav-pills > li.active > a:hover,
+.page-header .nav-pills > li.active > a:focus {
     color: #DF5A49;
     /*color: #FF8C31;*/
     background-color: transparent;
     /*border-bottom: 5px solid #FF8C31;*/
     border-bottom: 5px solid #DF5A49;
+}
+
+
+
+/* Side */
+.side-navigation{
+    margin-top: 20px;
+}
+
+.side-navigation .affix-top,
+.side-navigation .nav-pills{
+    width: 280px;
+}
+
+.side-navigation .nav-pills > li > a{
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+.side-navigation .nav-pills > li.active > a{
+    background-color: #7BBC28;
+}
+
+.side-navigation .nav > li > a:hover,
+.side-navigation .nav > li > a:focus {
+    background-color: #EEE;
 }
