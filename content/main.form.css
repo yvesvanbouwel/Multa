@@ -8,8 +8,14 @@
     width: 100px;
 }
 
+.field-label-L{
+    display: inline-block;
+    width: 150px;
+}
+
 .btn-cta {
     background-color: #DF5A49;
     color: #FFF;
     font-weight: bold;
+    text-decoration: none;
 }
